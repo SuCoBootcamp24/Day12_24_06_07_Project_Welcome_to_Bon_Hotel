@@ -65,15 +65,40 @@ p {
   line-height: 20px;
 }
 
-.btn {
-}
-
 /** ---- Headder ---- */
+
 header {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 
-  height: 20vh;
+  height: 30vh;
+  width: 100%;
+
+  padding: 1%;
+}
+
+header img {
+  height: 100px;
+  width: 150px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 40%;
+}
+
+header nav a {
+  color: #957554;
+}
+
+header nav img {
+  height: 20px;
+  width: 20px;
 }
 
 /** --- Main Section 1 --- */
