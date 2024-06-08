@@ -22,6 +22,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #6a533c;
+}
+
 img {
   max-width: 100%;
 }
@@ -76,6 +80,11 @@ p {
   color: white;
 
   text-align: center;
+}
+
+.btn:hover {
+  border: 1px solid #bc904e;
+  background: #bc904e;
 }
 
 /** ---- Headder ---- */
@@ -155,6 +164,11 @@ header nav img {
   width: 100px;
 
   text-align: center;
+  transition: transform 300ms ease-out;
+}
+
+.mainS1 article div:hover {
+  transform: translate(0px, 0px) scale(1.2, 1.2);
 }
 
 .mainS1 article div img {
@@ -298,6 +312,10 @@ footer article:nth-of-type(2) h4 {
 footer article:nth-of-type(2) .btn {
   padding: 20px 100px;
   font-size: 2rem;
+}
+
+footer article:nth-of-type(2) .btn:hover {
+  color: #6a533c;
 }
 
 #email {
